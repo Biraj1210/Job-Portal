@@ -1,2 +1,3 @@
 # Job-Portal
 This project presents a fully functional frontend-based job portal developed using HTML, CSS, and JavaScript. The platform simulates a real-world recruitment system by allowing users to register as students or recruiters, browse job listings, apply for jobs, and manage applications.
+The interface is enhanced with modern UI/UX principles, including glassmorphism design, animations, and responsive layouts. Additional features such as job search, saved jobs, analytics, and real-time UI transitions improve user engagement. This project demonstrates how a complete web application can be prototyped using only frontend technologies while maintaining usability and interactivity.
