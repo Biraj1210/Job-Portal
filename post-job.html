@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Post Job</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="header fade-in">
+        <h2>📢 Recruiter Panel</h2>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <div class="container fade-in">
+        <input id="title" placeholder="Job Title">
+        <input id="company" placeholder="Company">
+        <button onclick="postJob()">Post Job</button>
+    </div>
+
+    <h2 class="fade-in">📄 Posted Jobs</h2>
+    <div id="jobList"></div>
+
+    <script src="recruiter.js"></script>
+    <script src="animations.js"></script>
+
+</body>
+
+</html>
