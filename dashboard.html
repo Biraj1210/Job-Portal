@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="header fade-in">
+        <h2>💼 Job Portal</h2>
+        <div>
+            <input id="search" class="search-bar" placeholder="Search jobs...">
+            <button onclick="logout()">Logout</button>
+        </div>
+    </div>
+
+    <h2 class="fade-in">🚀 Available Jobs</h2>
+    <div id="jobs"></div>
+
+    <h2 class="fade-in">❤️ Saved Jobs</h2>
+    <div id="savedJobs"></div>
+
+    <h2 class="fade-in">📊 Analytics</h2>
+    <div id="analytics"></div>
+
+    <script src="jobs.js"></script>
+    <script src="animations.js"></script>
+
+</body>
+
+</html>
