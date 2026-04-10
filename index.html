@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Job Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="container fade-in">
+        <h1>🚀 Job Portal</h1>
+
+        <input id="name" placeholder="Name">
+        <input id="email" placeholder="Email">
+        <input id="password" type="password" placeholder="Password">
+
+        <select id="role">
+            <option value="student">Student</option>
+            <option value="recruiter">Recruiter</option>
+        </select>
+
+        <button onclick="signup()">Sign Up</button>
+        <button onclick="login()">Login</button>
+    </div>
+
+    <script src="auth.js"></script>
+    <script src="animations.js"></script>
+
+</body>
+
+</html>
